@@ -6,8 +6,6 @@ sudo: required
 # https://secure.php.net/supported-versions.php
 language: php
 php:
-  - 5.6
-  - 7.0
   - 7.1
   - 7.2
   - hhvm
@@ -15,9 +13,6 @@ php:
 matrix:
   allow_failures:
     - php: hhvm
-
-addons:
-  mariadb: '10.1'
 
 before_script:
   - git clone https://github.com/eustasy/normal-checks.git
@@ -34,9 +29,6 @@ script:
   - ./normal-checks/check-php.sh
   - php normal-checks/check-json.php
   - php normal-checks/check-xml.php
-  # Comment out following two lines if you don't wish to test any SQL files.
-  - sudo mysql -u root -e 'CREATE DATABASE IF NOT EXISTS tests_db;'
-  - sudo mysql -u root tests_db < empty/test.sql
 
 notifications:
   email:
