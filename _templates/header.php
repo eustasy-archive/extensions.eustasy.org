@@ -43,9 +43,9 @@
 <!-- Authorship -->
 <link rel="author"                      href="<?php echo $Page['Google+ Author']; ?>" title="<?php echo $Page['Author Name']; ?>"/>
 <!-- Stylesheets -->
-<link rel="stylesheet"                  href="https://cdn.jsdelivr.net/g/normalize,colors.css">
 <link rel="stylesheet"                  href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,400italic|Slabo+27px|Inconsolata&subset=latin,latin-ext" data-noprefix>
-<link rel="stylesheet"                  href="https://cdn.jsdelivr.net/fontawesome/4.6.3/css/font-awesome.min.css" data-noprefix>
+<link rel="stylesheet"                  href="https://cdn.jsdelivr.net/combine/gh/eustasy/Colors.css@1/colors.min.css,gh/necolas/normalize.css@8/normalize.min.css">
+<link rel="stylesheet"                  href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5/web-fonts-with-css/css/fontawesome-all.min.css" data-noprefix>
 <link rel="stylesheet"                  href="/assets/css/grid.min.css">
 <link rel="stylesheet"                  href="/assets/css/extensions.css">
 <?php
@@ -60,7 +60,7 @@
 <?php
 	require_once $Sitewide['Assets']['Internal']['JS'].'jQl.min.js';
 ?>
-jQl.loadjQ('https://cdn.jsdelivr.net/g/prefixfree,rem,jquery,jquery.downboy,jquery.leanmodal2');
+jQl.loadjQ('https://cdn.jsdelivr.net/combine/gh/LeaVerou/prefixfree@1/prefixfree.min.js,gh/chuckcarpenter/REM-unit-polyfill@1/js/rem.min.js,gh/jquery/jquery@3/dist/jquery.min.js,gh/eustasy/jQuery.downBoy@1/jquery.downboy.min.js,gh/eustasy/jQuery.leanModal2@2/jQuery.leanModal2.min.js');
 jQl.boot();
 </script>
 <script>
