@@ -8,14 +8,14 @@ Licensing
 
 
 ### Creative Commons Attribution Non-Commercial Share-Alike 3.0 Unported License (CC BY NC SA 3.0)
-- [eustasy Page on Licenses and Licensing](http://eustasy.org/licenses)
-- [Human-Readable License](http://creativecommons.org/licenses/by-nc-sa/3.0/)
-- [Full Legal Code](http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode)
+- [eustasy Page on Licenses and Licensing](https://eustasy.org/licenses)
+- [Human-Readable License](https://creativecommons.org/licenses/by-nc-sa/3.0/)
+- [Full Legal Code](https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode)
 
 
 ### The MIT License (MIT)
 
-Copyright &copy; 2017 [eustasy](https://eustasy.org)
+Copyright &copy; 2021 [eustasy](https://eustasy.org)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
